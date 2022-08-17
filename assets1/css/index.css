@@ -1,0 +1,759 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Tangerine&display=swap');
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+.imgnotf img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+.imgnotf h6{
+    font-size: 20px;
+    color: #012970;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.pdur{    
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+}
+.sdate{
+    font-family: 'Poppins', sans-serif;
+    font-size:18px; 
+    color: #012970; 
+
+}
+.eventspan span{
+    color: #899bbd;
+    font-size: 15px;
+    font-weight: 500;
+    float:right;
+}
+.card-icone img, .pokies{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+}
+.card-iconee{
+    width:35px;
+    height:35px;
+    background: #e0f8e9;
+}
+.align-items-start .img1{
+    margin-left:-10px;
+}
+
+.nextnav{
+    padding:30px;
+    background:#fff;
+  }
+  .nextnav ul{
+    list-style:none;
+    display:flex;
+    justify-content: space-between;
+  }
+
+.navii{
+    display:flex;
+  }
+  .search-ba{
+    border:1px solid rgb(204,212,226);
+    padding:0px;
+    margin-right:20px;
+    margin-left:20px;
+  }
+  .search-ba input{
+    height:35px;      
+    width: 300px;
+    border-right:1px solid #fff;
+    outline:none;
+    border:none;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.02);
+  }
+  .search-ba button{
+    height:35px;
+    background:#fff;
+    outline:none;      
+    border-left:0px solid #fff;
+    border:none;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.02);
+  }
+  .toolselement{
+    background:transparent; 
+    padding:0 15px; 
+    border:1px solid rgb(204,212,226);
+    margin-right:20px;
+  }
+  .bysort{
+    display:inline-block;
+    border-radius:15px;
+    background:#F6F9FF;
+    margin-top:30px;
+
+  }
+  .bysort .nav-item .nav-link{
+    font-size:15px;
+  }
+  .schedules table {
+    overflow:scroll;
+  }
+  .schedules table .col{
+    font-weight:600px;
+    font-size:15px;
+  }
+  .dataTable-table th a {
+    font-size:14px;
+    font-weight:510;
+  }
+  .dataTable-top{
+    display:none;
+  }
+  .dataTable-table td, .dataTable-info{
+    font-size:14px;
+  }
+  .schedules{
+    margin-top:-20px;
+    border-radius:0px;
+  }
+
+
+  .mainschedule, .viewcomputerdetail_pane{
+    background:#f6f9ff;
+    /* background-color: #e5e5f7;
+    background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 4px ), repeating-linear-gradient( #ecedf254, #d9dd62 ); */
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    display:none;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 25.5s; /* 0.5 second transition effect to slide in the sidebar */
+
+}
+.mainscheduleactive, .viewcomputerdetail_active_pane{
+display:block;
+width:700px;
+transition:5s;
+}
+.mainscheduleactivenp, .viewcomputerdetailnp_active_pane{
+display:block;
+width:900px;
+transition:5s;
+}
+.mainsetschedule, 
+.mainobservers, 
+.workgroup_pane, 
+.workgroup_view_pane, 
+.workgroup_chat_pane, 
+.notification_pane,
+.addcomputer_pane,
+.makeadmin_pane,
+.bulkschedule_pane
+{
+  background:#f6f9ff;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  display:none;
+  z-index: 1; /* Stay on top */
+  top: 0;
+  right: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 25.5s; /* 0.5 second transition effect to slide in the sidebar */
+
+}
+.mainsetscheduleactive, 
+.mainobserversactive, 
+.workgroup_pane_active, 
+.workgroup_view_pane_active, 
+.workgroup_chat_pane_active, 
+.notification_pane_active,
+.addcomputer_pane_active,
+.makeadmin_pane_active,
+.bulkschedule_pane_active
+{
+  display:block;
+  width:700px;
+  transition:5s;
+}
+
+.accsetting_pane{
+  background:#f6f9ff;
+  height: 100%;
+  width: 0;
+  position: fixed; 
+  display:none;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden; 
+  padding-top: 60px;
+  transition: 25.5s;
+
+}
+
+.accsetting_pane_active{
+  display:block;
+  width:700px;
+  transition:5s;
+}
+
+
+  /*---------------------------------------------------------------*/
+.pc-cont{
+display:inline-block;
+width:80px;
+height:80px;
+margin:10px;
+}
+.pc-id, .pc-icon{
+display: block;
+}
+.pc-icon{
+line-height:0px;
+}
+.pc-status{
+font-size:12px;
+}
+.reserve-button{
+height: 20px;
+width:60px;
+font-size:13px;
+margin-left:10px;
+}
+.computer-placement{
+display:inline;
+float:right;
+width: 345px;
+margin-top:-50px;
+margin-right:46px;
+padding:7px;
+}
+.major-pc{
+font-size:50px;
+}
+.fromto{
+margin-top:10px;
+}
+.btntry .btn-primary{
+width:60px;
+}
+.pr{
+padding-right:20px;
+}
+.schedule_task{
+height:50px;
+outline:none;
+}
+.attachments ul{
+list-style:none;
+display:flex;
+}
+.attachments li a{
+font-size:13px;
+
+}
+.schedule_timing, .invite_observers{
+padding:20px 20px;
+background:#F6F9FF;
+}
+.notification_cont, .workgroup_cont{
+  padding:0px 20px;
+background:#F6F9FF;
+}
+.schedule_timing input, #morescheduleopt input, .invite_observers input{
+outline:none;
+height:30px;
+width:300px;
+margin-left:-48px;
+}
+.schedule_timing input[value]{
+color:blue;
+}
+.schedule_timing label, #morescheduleopt label{
+font-size:14px;
+}
+.schedulefooter{
+background:#fff;
+/* width:calc(100%+50px); */
+/* margin-left:-50px;
+padding-left:50px; */
+box-shadow:2px -2px 5px rgba(0,0,0,.2);
+/* overflow-x:hidden; */
+
+}
+.add-schedule{
+width:180px;
+background:#B4E624;
+margin:20px;
+
+}
+.groupsubmit, .addcomputersubmit, .reqsubmit{
+  width:80px;
+  background:#B4E624;
+}
+.groupback, .compback, .reqback{
+  margin-left:20px;
+}
+.upd-schedule{
+  width:180px;
+  background:#B4E624;
+  margin:20px;
+  
+}
+.bx-time {
+  display: inline-block;
+  font-size: 38px;
+  font-family: var(--ui-font-family-secondary,var(--ui-font-family-open-sans));
+  font-weight: var(--ui-font-weight-light,300);
+  height: 63px;
+  line-height: 59px;
+  position: relative;
+  vertical-align: middle;
+  z-index: 5;
+}
+.time-hours {
+  display: inline-block;
+  height: 63px;
+  vertical-align: top;
+}
+.time-semicolon {
+  display: inline-block;
+  height: 63px;
+  vertical-align: top;
+}
+.time-minutes {
+  display: inline-block;
+  height: 63px;
+  vertical-align: top;
+}
+.time-am-pm {
+  display: inline-block;
+  font-size: 6px;
+  height: 55px;
+  line-height: 44px;
+  margin-left: 0;
+  vertical-align: top;
+}
+.bx-time:before {
+  content: "";
+}
+/* Calender */
+/* #external-events {
+    left: 20px;
+    top: 20px;
+    width: 150px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+    text-align: left;
+  }
+
+  #external-events h4 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 1em;
+  }
+
+  #external-events .fc-event {
+    margin: 3px 0;
+    cursor: move;
+  }
+
+  #external-events p {
+    margin: 1.5em 0;
+    font-size: 11px;
+    color: #666;
+  }
+
+  #external-events p input {
+    margin: 0;
+    vertical-align: middle;
+  }
+
+  #calendar-wrap {
+    margin-left: 10px;
+  }
+
+  #calendar {
+    max-width: 1100px;
+    margin: 0 auto;
+  } */
+
+  #btnsetting .dropdown-toggle::after, #btnsetting .dropdown-toggle::after {
+    display: inline-block;
+    /* margin-left: 0.255em; */
+    /* vertical-align: 0.255em; */
+    content: "";
+    /* border-top: 0.3em solid; */
+    /* border-right: 0.3em solid transparent; */
+    /* border-bottom: 0; */
+    /* border-left: 0.3em solid transparent; */
+}
+.usearch{
+  background:#fff;
+  width:400px;
+  height:40px;
+  font-size:15px;
+  border-radius: 3px;
+  box-shadow:2px 2px 2px rgba(0,0,0,.02);
+}
+.usearch .usearchspan, .usearch .ssearchspan , .usearch .fsearchspan, .usearch .asearchspan {
+  background: #F6F9FF;
+  display: inline-block;
+  margin-top: 4.5px;
+  outline:none;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-left:0.3rem;
+}
+.closeopt{
+  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 3px;
+}
+.closeopt:hover{
+  box-shadow:2px 2px 2px rgba(0,0,0,.02);
+}
+
+.telcont input, .emailcont input, .userscont input{
+  font-size:14px; 
+  margin-left:-16px
+}
+.addemail,.addtel,.adduser{
+  cursor:pointer; 
+  font-size:2px; 
+  background:#f6f9ff;
+  color:#f6f9ff;
+  display: inline-block;
+}
+
+.result p{
+  width: 100%;
+  margin-top: .25rem;
+  font-size: .875em;
+  color: #dc3545;
+  cursor: pointer;
+}
+.result p:hover{
+    background: #f9f6ff;
+}
+.invitenow, .addnow, .createnow, .removeadmin{
+  padding: 0rem .75rem;
+  border: 1px solid #CED4DA;
+}
+
+.usertolist input, .adminlist input{
+  color: #012970;
+}
+/* Workgroup */
+.workgroup_cont, .addcomputer{
+  margin-top: -20px;
+}
+.workgroup_cont h5, .addcomputer h5{
+  padding-top: 20px;
+}
+.workgroup-label, .addcomputer label{
+  margin-top: 8px;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+.workgroup input, .addcomputer input{
+  font-size:14px;
+}
+.workgroup_icon{ 
+  margin-top: 10px;
+}
+.workgroup_icon img {
+  width: 40px;
+  height: 40px;
+  margin: 5px 5px;
+  padding: 2px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 20%);
+}
+.workgroup_icon .active{
+  border: 0.01px solid var(--bs-cyan);
+}
+.workgroup_icon .gimg{
+  margin-left:20px;
+  
+}
+.chatelement{
+  /* background: #f6f9ff; */
+    /* display: inline-block;
+    max-width:300px; */
+    padding: 0px 20px;
+    margin: 10px;
+    font-size:13px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 1%);
+}
+.chatelement p{
+  margin-top: -10px;
+}
+
+.notbuttons button, .wotbuttons button{
+  font-size: 13px;
+  background: #f6f9ff;
+  border: 0px;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 20%);
+  padding: 2px 13px;
+  margin-left:10px;
+  margin-bottom:10px;
+}
+
+/* Media queries for different screen sizes */
+@media screen and (min-width:320px){ 
+  .mainscheduleactive,
+  .mainsetscheduleactive, 
+  .mainobserversactive, 
+  .workgroup_pane_active, 
+  .workgroup_view_pane_active, 
+  .workgroup_chat_pane_active, 
+  .notification_pane_active,
+  .addcomputer_pane_active,
+  .makeadmin_pane_active,
+  .bulkschedule_pane_active,
+  .accsetting_pane_active{
+    width:300px;
+  }
+  .allworkgroupspane, .descbreadcrump, .search-ba, .toptaps, .planner{
+    display: none;
+  }
+  .timeman-container, .r320, .mainsetschedule .attachments{
+    display:none;
+  }
+  .accsetting_pane .card-text, .wkgrpdis .card-text{
+    font-size:14px;
+  }
+  .accsetting_pane .card .col-md-4 img{
+    height: 90px; 
+    margin: 30px;
+    margin-bottom:0;
+  }
+  .wkgrpimg img{
+    height: 90px;
+    margin: 30px;
+    margin-left: 70px;
+    margin-bottom: 0;
+  }
+  .notification_cont{
+    padding:0px;
+    padding-left:10px;
+  }
+  .indnotifitem img{
+    border-radius:50%; 
+    width: 35px; 
+    height:35px;
+  }
+  .notif_title{
+    color: #012970; 
+    font-size:14px; 
+    top:-5px; 
+    position:relative; 
+    margin-left:5px;
+  }
+  .workgroup_cont input{
+    height:26px;
+  }
+  .workgroup_icon img{
+    width:30px;
+    height:30px;
+  }
+  .navii {
+    display: block;
+  }
+  .toolselement{
+    margin-right: 0px;
+  }
+  .quickset{
+    padding: 0px 10px;
+  }
+  .contprof img{
+    width:60px;
+    height:60px;
+  }
+  .mainsetscheduleactive input{
+    margin-left: -1px;
+    width: 195px;
+  }
+  .schedule_timing input, #morescheduleopt input, .invite_observers input {
+    outline: none;
+    height: 25px;
+    width: 200px;
+    margin-left: -9px;
+  }
+  .workgroup_cont form input{
+    height:27px;
+    font-size:14px;
+  }
+  .messagegroup, .searchicongroup, .thismontht{
+    display:none;
+  }
+  .bx-time{
+    font-size:30px
+  }
+  
+  
+}
+
+@media screen and (min-width:375px){ 
+  .timeman-container{
+    margin-left:30px;
+  }
+}
+
+@media screen and (min-width:425px){ 
+  .timeman-container{
+    margin-left:65px;
+  }
+}
+
+@media screen and (min-width:768px){ 
+  .timeman-container, .thismontht, .r320, .descbreadcrump, .search-ba{
+    display:inline;
+  }
+  .mainscheduleactive,
+  .mainsetscheduleactive, 
+  .mainobserversactive, 
+  .workgroup_pane_active, 
+  .workgroup_view_pane_active, 
+  .workgroup_chat_pane_active, 
+  .notification_pane_active,
+  .addcomputer_pane_active,
+  .makeadmin_pane_active,
+  .bulkschedule_pane_active,
+  .accsetting_pane_active{
+    width:650px;
+  }
+  .mainscheduleactivenp{
+    width:700px;
+  }
+  .accsetting_pane .card .col-md-4 img,  .wkgrpimg img{
+    margin: 30px;
+  }
+  .mainsetscheduleactive input{
+    height: 30px;
+    width: 300px;
+  }
+  .schedule_timing input, #morescheduleopt input, .invite_observers input {
+    height: 30px;
+    width: 300px;
+  }
+  .navii, .toptaps{
+    display: flex;
+  }
+  .usearch{
+    width:200px;
+    overflow-y:scroll;
+  }
+  .workgroup_cont form input{
+    height:34px;
+  }
+  .timeman-container{
+    margin-left:205px;
+  }
+  .bx-time{
+    font-size:38px
+  }
+  .messagegroup{
+    display:block;
+  }
+  .thismontht{
+    display:flex;
+  }
+}
+@media screen and (min-width:1024px){ 
+  .allworkgroupspane{
+    display:block;
+  }
+  /* .btn-group #btnsettings{
+    margin-left:-40px
+  } */
+  .timeman-container{
+    margin-left:265px;
+  }
+  .usearch{
+    width:500px;
+  }
+}
+@media screen and (min-width:1440px){ 
+  .mainscheduleactive,
+  .mainsetscheduleactive, 
+  .mainobserversactive, 
+  .workgroup_pane_active, 
+  .workgroup_view_pane_active, 
+  .workgroup_chat_pane_active, 
+  .notification_pane_active,
+  .addcomputer_pane_active,
+  .makeadmin_pane_active,
+  .bulkschedule_pane_active,
+  .accsetting_pane_active{
+    width:700px;
+  }
+  .mainscheduleactivenp{
+    width:900px;
+  }
+  .usearch{
+    width:680px;
+  }
+  .timeman-container{
+    margin-left:160px;
+  }
+}
+    
+
+
+
+/* Theme Option 2 */
+/* body, .sidebar{
+  background: #0b58a6 url('../img/bg.jpg') fixed 0 0 no-repeat;
+  background-size: cover;
+}
+.sidebar-nav .nav-link{
+  background: #0b58a6 url('../img/bg.jpg') fixed 0 0 no-repeat;
+  background-size: cover; 
+  color:#f6f9ff;
+}
+.sidebar-nav .nav-link.collapsed {
+  background: none;
+  color: #fff;
+}
+.sidebar-nav .nav-content a {  
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.navii h5, .bi-gear, .bi-lightning{
+  color:#fff;
+}
+.scopt{
+  color:#fff;
+}
+.schedules{
+  opacity: 60%;
+} */

@@ -1,0 +1,18 @@
+.partnotification{
+    margin-left:30px;
+}
+
+.imgnotf img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border-bottom:50px;
+}
+.partnotification img{
+    width:30px;
+    height:30px;
+}
+.bi-gear{
+    margin-left:80%;
+    position:relative;
+}
